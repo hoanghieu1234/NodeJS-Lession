@@ -1,0 +1,185 @@
+<mxfile host="65bd71144e">
+    <diagram id="Y1MGRx5pFsmqS22L98qj" name="Cookie">
+        <mxGraphModel dx="743" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="210" width="670" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="375" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="370" width="160" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Request&lt;br style=&quot;font-size: 15px;&quot;&gt;" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="315" y="405" as="sourcePoint"/>
+                        <mxPoint x="545" y="405" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Respone" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="545" y="455" as="sourcePoint"/>
+                        <mxPoint x="325" y="455" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Đây chính là trang web hoạt động chưa có cookie&lt;/font&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="240" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="610" width="680" height="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;Còn đây là hoạt động khi có cookie&lt;/span&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="640" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="105" y="815" width="160" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="530" y="815" width="160" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Request1" style="endArrow=classic;html=1;fontSize=19;exitX=0.989;exitY=0.083;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="850" as="sourcePoint"/>
+                        <mxPoint x="370" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="800" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&amp;nbsp;setCookie('name', 'bui van vu')" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="820" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1" source="20" target="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="840" as="sourcePoint"/>
+                        <mxPoint x="470" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Response: set-cookie: name = vu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="870" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="N Request" style="endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="840" as="sourcePoint"/>
+                        <mxPoint x="470" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="485" y="870" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="920" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="request: cookie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="960" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Check cookie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="940" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1040" width="590" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Giải thích: lần 1 thằng trình duyệt sẽ gửi yêu cầu lên máy chủ xong. 2 Máy chủ sẽ tạo ra một cookie, chứa thông tin của người dùng, sau đó gửi cookie đến thằng trình duyệt. Tại bước số 3 =&amp;gt; Phía bên trình duyệt sẽ mang cookie do phía máy chủ tạo ra khi nó truy cập lại phía máy chủ&amp;nbsp; đến bước 4 phía máy chủ phân biệt những người dùng khác nhau thông qua dữ liệu mang trong cookie&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="147.5" y="1110" width="535" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="940" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="YUTTjh7hyTGkt49DULGo" name="Session">
+        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="920" height="1170" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-3" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="320" width="140" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-4" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="320" width="150" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-6" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="310" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-7" value="Session Redis" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+                    <mxGeometry x="482.5" y="650" width="145" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-8" value="1. Login&amp;nbsp;" style="endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-3" target="YsrD2GHUNFUmkCCUkoNI-4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="610" as="sourcePoint"/>
+                        <mxPoint x="450" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-9" value="" style="endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-4" target="YsrD2GHUNFUmkCCUkoNI-6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="590" as="sourcePoint"/>
+                        <mxPoint x="550" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-11" value="2. Login DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="YsrD2GHUNFUmkCCUkoNI-9">
+                    <mxGeometry x="-0.1759" y="4" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-12" value="3. Return Data" style="endArrow=classic;html=1;fontSize=14;exitX=-0.017;exitY=0.797;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.537;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-6" target="YsrD2GHUNFUmkCCUkoNI-4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="600" as="sourcePoint"/>
+                        <mxPoint x="360" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-13" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.752;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-4" target="YsrD2GHUNFUmkCCUkoNI-7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="520" as="sourcePoint"/>
+                        <mxPoint x="520" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-14" value="4. store sesion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="550" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-15" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.281;exitY=0.07;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-7" target="YsrD2GHUNFUmkCCUkoNI-4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="630" as="sourcePoint"/>
+                        <mxPoint x="490" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-16" value="5. return session id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="560" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-17" value="6. Session Id Res" style="endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-4" target="YsrD2GHUNFUmkCCUkoNI-3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="480" as="sourcePoint"/>
+                        <mxPoint x="400" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-18" value="7. Cookie req" style="endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsrD2GHUNFUmkCCUkoNI-3" target="YsrD2GHUNFUmkCCUkoNI-4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="530" as="sourcePoint"/>
+                        <mxPoint x="400" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-19" value="8. check session id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="610" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-20" value="9. return session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="630" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="770" width="800" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-22" value="Giải thích cho ae" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="790" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YsrD2GHUNFUmkCCUkoNI-23" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;bước 1 nhá: Phía bên trình duyệt gửi yêu cầu ở lần đầu tiên&amp;nbsp;&lt;br&gt;bước 2: Ở phía server của ae mình kiểm tra trong database&lt;br&gt;bước 3: Nếu hợp lệ trả về dữ liệu cho người dùng&amp;nbsp;&lt;br&gt;bước 4: Khi trả về thì ae mình dùng express đúng không thì thằng này nó sẽ tạo ra cho ae một session và một cookie đặc biệt (key=JESSIONID, giá trị là object session ) và cái này nó sẽ lưu trữ trên ram hoặc là redis.&amp;nbsp;&lt;br&gt;bước 5: tạo ra cho ae một sessionId&amp;nbsp;&lt;br&gt;bước 6: Sau đó gửi cookie đến phía bên trình duyệt&amp;nbsp;&lt;br&gt;bước 7: khi client request lần thứ N yêu cầu này được thực hiện đến máy chủ, trình duyệt sẽ mang đối tượng Cookie có tên là JSSESSIONID khi truy cập tới máy chủ.&lt;br&gt;bước 8: Máy chủ sẽ truy vấn đối tượng Sesion theo giá trị (sessionId) của cookie có tên là JSSSECTIONID, để phân biệt được người dùng khác nhau&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="840" width="640" height="370" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+</head>
+
+<body>
+
+  <h1>Giỏ hàng</h1>
+  <% if (cart.length===0) { %>
+    <p>Giỏ hàng trống</p>
+    <% } else { %>
+      <ul>
+        <% cart.forEach((item)=> { %>
+          <li>
+            <%= item %>
+          </li>
+          <% }); %>
+      </ul>
+      <% } %>
+        <a href="/baitap/home">Trang chủ</a>
+        <br>
+        <a href="/baitap/logout">Đăng xuất</a>
+</body>
+
+</html>

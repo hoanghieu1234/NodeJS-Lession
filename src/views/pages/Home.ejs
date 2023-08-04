@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ</title>
+</head>
+
+<body>
+  <h1>Xin chào <%= user.username %>!</h1>
+  <h2>Danh sách sản phẩm:</h2>
+  <form method="post" action="/baitap/add-to-cart">
+    <input type="text" name="product">
+    <button type="submit">Thêm vào giỏ hàng</button>
+  </form>
+  <a href="/baitap/cart">Xem giỏ hàng</a>
+  <br>
+  <a href="/baitap/logout">Đăng xuất</a>
+</body>
+
+</html>
